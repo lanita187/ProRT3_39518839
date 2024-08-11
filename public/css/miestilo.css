@@ -1,0 +1,77 @@
+body {
+
+    background-color: #060644f1;
+    color: burlywood;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+    }
+    .e1 {
+       text-align: center;
+       font-weight: bold;
+       font-style: arial;
+    }
+
+    .div1 {
+        text-align: center;
+        font-weight: bold;
+        font-style: arial;
+    }
+
+    .div2 {
+        text-align: center;
+        font-weight: bold;
+        font-style: unset;
+    }
+
+    header {
+        background-color: rgb(233, 191, 136);
+        color: #fff;
+        text-align: center;
+        padding: 20px;
+    }
+    section {
+        padding: 20px; /* espaciado para la sección de 20 pixeles */}
+    footer {
+        background-color: rgb(195, 209, 223); /* Color de fondo del footer */
+        color: #fff;
+        padding: 20px 0; }
+    .footer-content {
+        max-width: 800px; /* Ancho máximo del contenido del footer */
+        margin: 0 auto; /* Centrar el contenido del footer horizontalmente */
+        text-align: center; } 
+
+        nav {
+            background-color: rgb(205, 206, 255);
+            padding: 10px;
+            }
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            }
+        nav ul li {
+            display: inline-block;
+            margin-right: 20px;
+            }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            padding: 8px 16px;
+            border-radius: 5px;
+            }
+        nav ul li a:hover {
+            background-color: rgb(18, 18, 70);
+            }
+
+        img {
+            display: block; /* Para eliminar el espacio adicional que algunos navegadores agregan a las img. */
+            margin: 0 auto; /* Centrar las imágenes horizontalmente */
+            max-width: 100%; /* Asegurar que las imágenes no excedan el ancho del contenedor */
+            border: 3px solid rgb(185, 186, 255); /* Contorno de 3px con un color verde (#69bd45) alrededor de la img.*/
+            border-radius: 10px; /* Borde redondeado de 10px para suavizar el contorno */
+            }
+        
+                            
